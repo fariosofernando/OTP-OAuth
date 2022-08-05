@@ -6,7 +6,7 @@ class OTP:
     '''...'''
     def __init__(self) -> None:
         
-        self.nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        self.nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
         self.txt = ['A', 'B', 'C', 'D', 'E','F', 'G', 'H', 'I', 'J'] # Ultimo caractere.
         self.otp_code = ''
 
